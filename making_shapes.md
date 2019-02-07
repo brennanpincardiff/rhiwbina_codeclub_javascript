@@ -1,17 +1,17 @@
-Try using [jsfiddle.net](https://jsfiddle.net/)
+Try using [jsfiddle.net](https://jsfiddle.net/).
+
 You will need add the d3 library in the Framework and Extensions
 
 
-# Make a circle
+### Make a circle
 1. Step 1 is to make an SVG box in the div of a html page
 2. Then add the code for a simple cirle
 
 ``` javascript
 //Make an SVG box
 var svgbox = d3.select("div").append("svg")
-															.attr("width", 500)
-                              .attr("height", 500)
-
+		             .attr("width", 500)
+                             .attr("height", 500)
 
  //Draw the Circle
  var circle = svgbox.append("circle")
