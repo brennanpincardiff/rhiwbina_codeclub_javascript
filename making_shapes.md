@@ -18,14 +18,14 @@ Type this code into the HTML window
 ``` javascript
 //Make an SVG box
 var svgbox = d3.select("div").append("svg")
-		             .attr("width", 500)
+		             .attr("width", 500)	// gives size in pixels of svg box
                              .attr("height", 500)
 
  //Draw the Circle
  var circle = svgbox.append("circle")
-                          .attr("cx", 30)
-                          .attr("cy", 30)
-                          .attr("r", 20);
+                          .attr("cx", 30)	// x position of circle
+                          .attr("cy", 30)	// y position of circle
+                          .attr("r", 20);	// radius of circle (controls size)
 ``` 
 
 3. Then make some other shapes
@@ -33,30 +33,32 @@ var svgbox = d3.select("div").append("svg")
 ``` javascript 
  //Draw an orange Rectangle
  var rectangle = svgbox.append("rect")
-                             .attr("x", 100)
-                             .attr("y", 100)
-                            .attr("width", 50)
-                            .attr("height", 100)
-                            .style('fill', 'orange'); 
+                             .attr("x", 100)	       // x position of top left of rectangle
+                             .attr("y", 100)	       // y position of top left of rectangle
+                            .attr("width", 50)	       // width of rectangle in pixels
+                            .attr("height", 100)       
+                            .style('fill', 'orange');  // fill and colour
                             
                       
- // control colour with rgb
+ // control colour with rgb 
  var rectangle = svgbox.append("rect")
                              .attr("x", 100)
                              .attr("y", 200)
                             .attr("width", 50)
                             .attr("height", 100)
-                            .style('fill', 'rgb(255,0,255)'); 
-                      
+                            .style('fill', 'rgb(255,0,255)'); 	// how much red, green and blue - play and learn
+  
+  
+  
  // draw multiple circles in a loop                               
-var i;
-for (i = 0; i < 4; i++) { 
+var i;			// declare a variable
+for (i = 0; i < 4; i++) { 		//  start of loop
   //Draw 4 Circles
   var circle = svgbox.append("circle")
                           .attr("cx", 30 + i*50)
                           .attr("cy", 400)
                           .attr("r", 20);
-}    
-```
+}    // end of loop
+```	
 
 This code is [here](https://jsfiddle.net/brennanpincardiff/n75wrkua/15/)
