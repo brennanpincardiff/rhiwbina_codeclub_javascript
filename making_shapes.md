@@ -1,7 +1,15 @@
-Try using [jsfiddle.net](https://jsfiddle.net/).
+### Setup
+Go to [jsfiddle.net](https://jsfiddle.net/).
 
 You will need add the d3 library in the Framework and Extensions
 
+Type this code into the HTML window
+
+``` html
+<div>
+
+</div>
+```
 
 ### Make a circle
 1. Step 1 is to make an SVG box in the div of a html page
@@ -51,5 +59,4 @@ for (i = 0; i < 4; i++) {
 }    
 ```
 
-
-```
+This code is [here](https://jsfiddle.net/brennanpincardiff/n75wrkua/15/)
