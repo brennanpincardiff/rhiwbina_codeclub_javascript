@@ -1,4 +1,9 @@
-We're going to make shapes
+
+
+
+# Make a circle
+1. Step 1 is to make an SVG box in the div of a html page
+2. Then add the code for a simple cirle
 
 ``` javascript
 //Make an SVG box
@@ -12,7 +17,11 @@ var svgbox = d3.select("div").append("svg")
                           .attr("cx", 30)
                           .attr("cy", 30)
                           .attr("r", 20);
-                         
+``` 
+
+3. Then make some other shapes
+
+``` javascript 
  //Draw an orange Rectangle
  var rectangle = svgbox.append("rect")
                              .attr("x", 100)
@@ -39,7 +48,7 @@ for (i = 0; i < 4; i++) {
                           .attr("cy", 400)
                           .attr("r", 20);
 }    
-
+```
 
 
 ```
