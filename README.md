@@ -5,5 +5,5 @@ A repo to gather and develop Javascript resources for Rhiwbina Code Club
 + [D3.js](https://d3js.org/) 
 
 **Lessons**
-+ [Lesson one - making shapes](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/making_shapes)
++ [Lesson one - making shapes](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/making_shapes.md)
 
