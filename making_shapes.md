@@ -12,7 +12,7 @@ Type this code into the HTML window
 ```
 
 ### Make a circle
-1. Step 1 is to make an SVG box in the div of a html page
+1. Make an SVG box in the div of a html page
 2. Then add the code for a simple cirle
 
 ``` javascript
