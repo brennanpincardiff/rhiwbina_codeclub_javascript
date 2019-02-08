@@ -44,6 +44,8 @@ var svgbox = d3.select("div").append("svg")
 
 4. Changing colours using RGB notation (numbers from zero to 255) - have a play
 
+Resource: (https://www.w3schools.com/colors/colors_rgb.asp)
+
 ``` javascript  
  // control colour with rgb 
  var rectangle = svgbox.append("rect")
