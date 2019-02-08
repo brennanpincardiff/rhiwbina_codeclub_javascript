@@ -7,7 +7,12 @@ A repo to gather and develop Javascript resources for Rhiwbina Code Club
 **Lessons**
 + [Lesson one - making shapes](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/making_shapes.md)
 + [Lesson two - a simple animation](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/simple_animation.md)
++ [Lesson three - dragging circles](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/dragging_circles.md)
 
 **Ideas for lessons**
 + Make traffic lights
-+ Click and drag (resources) [https://bl.ocks.org/mbostock/22994cc97fefaeede0d861e6815a847e], [https://jsfiddle.net/brennanpincardiff/e5pcruhn/4/], [https://bl.ocks.org/dimitardanailov/49f07bea0ed8adc92daee2162ac87c6c]
++ Different shapes - cat, dog, people, fish, etc...
++ Change when clicked
+
+
+
