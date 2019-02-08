@@ -6,4 +6,5 @@ A repo to gather and develop Javascript resources for Rhiwbina Code Club
 
 **Lessons**
 + [Lesson one - making shapes](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/making_shapes.md)
++ [Lesson two - a simple animation](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/simple_animation.md)
 
