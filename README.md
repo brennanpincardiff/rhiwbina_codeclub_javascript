@@ -11,8 +11,9 @@ A repo to gather and develop Javascript resources for Rhiwbina Code Club
 
 **Ideas for lessons**
 + Make traffic lights
-+ Different shapes - cat, dog, people, fish, etc...
-+ Change when clicked
-
-
-
++ Making circles - random colours and places   [https://bl.ocks.org/mbostock/22994cc97fefaeede0d861e6815a847e], [https://github.com/d3/d3-random]
++ Change when clicked/on mouse  [https://bl.ocks.org/mbostock/22994cc97fefaeede0d861e6815a847e]
++ Different shapes - cat, dog, people, fish, etc... Need to import an SVG, I think...
+Resources: [https://datascience.blog.wzb.eu/2016/08/29/bringing-svg-to-life-with-d3-js/],
+[https://stackoverflow.com/questions/18092976/is-it-possible-to-import-svg-shapes-in-d3-js],
+[https://bl.ocks.org/micahstubbs/2bd455e4c2170ec294f88212b930bb88]
