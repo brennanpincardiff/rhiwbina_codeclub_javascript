@@ -28,7 +28,7 @@ var svgbox = d3.select("div").append("svg")
                           .attr("r", 20);	// radius of circle (controls size)
 ``` 
 
-3. Then make some other shapes
+3. Try making a rectangle
 
 ``` javascript 
  //Draw an orange Rectangle
@@ -39,7 +39,12 @@ var svgbox = d3.select("div").append("svg")
                             .attr("height", 100)       
                             .style('fill', 'orange');  // fill and colour
                             
-                      
+  
+ ``` 
+
+4. Changing colours using RGB notation (numbers from zero to 255) - have a play
+
+``` javascript  
  // control colour with rgb 
  var rectangle = svgbox.append("rect")
                              .attr("x", 100)
@@ -48,7 +53,11 @@ var svgbox = d3.select("div").append("svg")
                             .attr("height", 100)
                             .style('fill', 'rgb(255,0,255)'); 	// how much red, green and blue - play and learn
   
-  
+ ``` 
+
+5. Draw multiple circles in a loop
+
+``` javascript  
   
  // draw multiple circles in a loop                               
 var i;			// declare a variable
