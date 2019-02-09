@@ -1,16 +1,11 @@
-### Setup
-Go to [jsfiddle.net](https://jsfiddle.net/).
+## Lesson 3
+### Setup at [jsfiddle.net](https://jsfiddle.net/).
 
-You will need add the d3 library in the Framework and Extensions
-
-Type this code into the HTML window
+Add the d3 library in the Framework and Extensions and type this code into the HTML window
 
 ``` html
-<div>
-
-</div>
+<div></div>
 ```
-
 ### Make circles
 1. Make an SVG box in the div of a html page
 2. Add the data for the circles
@@ -50,7 +45,6 @@ var attributtes = {
     }
 };
 
-
 svg
   .selectAll('circle')
       .data(data)
@@ -58,11 +52,9 @@ svg
       .append('circle')
           .attr(attributtes)
           .call(drag);
-
- 
 ``` 
 
-5. This is the code for the functions
+### This is the code for the functions
 
 ``` javascript 
   
@@ -79,11 +71,10 @@ function dragged(d, i) {
 }
 function dragended() {
     d3.select(this).classed(activeClassName, false);
-}                           
-  
+}                            
  ``` 
 
-6. For some different styling add some CSS
+### For some different styling add some CSS
 ``` CSS
 circle {
     shape-rendering: crispEdges;
@@ -99,10 +90,7 @@ circle:hover {
 circle.active-d3-item {
     fill: red;
 }
-
-
 ``` 
 
 [Code in jsfiddle](https://jsfiddle.net/brennanpincardiff/e5pcruhn/14/)
-
 Resource: (https://bl.ocks.org/dimitardanailov/49f07bea0ed8adc92daee2162ac87c6c)
