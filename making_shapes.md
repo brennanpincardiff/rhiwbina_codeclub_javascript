@@ -1,15 +1,11 @@
 ## Lesson 1
-### Setup
-Go to [jsfiddle.net](https://jsfiddle.net/).
+### Setup at [jsfiddle.net](https://jsfiddle.net/).
 
-You will need add the d3 library in the Framework and Extensions
-
-Type this code into the HTML window
+Add the d3 library in the Framework and Extensions and type this code into the HTML window
 
 ``` html
 <div></div>
 ```
-
 ### Make a circle
 1. Make an SVG box in the div of a html page
 2. Then add the code for a simple cirle
@@ -27,7 +23,7 @@ var svgbox = d3.select("div").append("svg")
                           .attr("r", 20);	// radius of circle (controls size)
 ``` 
 
-3. Try making a rectangle
+### Try making a rectangle
 
 ``` javascript 
  //Draw an orange Rectangle
@@ -41,7 +37,7 @@ var svgbox = d3.select("div").append("svg")
   
  ``` 
 
-4. Changing colours using RGB notation (numbers from zero to 255) - have a play
+### Change colours using RGB notation (numbers from zero to 255) - have a play
 
 Resource: (https://www.w3schools.com/colors/colors_rgb.asp)
 
@@ -56,7 +52,7 @@ Resource: (https://www.w3schools.com/colors/colors_rgb.asp)
   
  ``` 
 
-5. Draw multiple circles in a loop
+### Draw multiple circles in a loop
 
 ``` javascript  
   
