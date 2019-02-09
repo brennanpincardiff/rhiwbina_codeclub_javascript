@@ -1,3 +1,4 @@
+## Lesson 1
 ### Setup
 Go to [jsfiddle.net](https://jsfiddle.net/).
 
@@ -6,9 +7,7 @@ You will need add the d3 library in the Framework and Extensions
 Type this code into the HTML window
 
 ``` html
-<div>
-
-</div>
+<div></div>
 ```
 
 ### Make a circle
