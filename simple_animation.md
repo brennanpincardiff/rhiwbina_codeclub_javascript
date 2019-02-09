@@ -1,16 +1,11 @@
-### Setup
-Go to [jsfiddle.net](https://jsfiddle.net/).
+## Lesson 2
+### Setup at [jsfiddle.net](https://jsfiddle.net/).
 
-You will need add the d3 library in the Framework and Extensions
-
-Type this code into the HTML window
+Add the d3 library in the Framework and Extensions and type this code into the HTML window
 
 ``` html
-<div>
-
-</div>
+<div></div>
 ```
-
 ### Make a circle
 1. Make an SVG box in the div of a html page
 2. Then add the code for a simple cirle
@@ -28,8 +23,7 @@ var svgbox = d3.select("div").append("svg")
                           .attr("r", 20);	// radius of circle (controls size)
                           .style("fill","blue")
 ``` 
-
-3. Now add some movement using the transition
+### Add some movement using the transition
 
 ``` javascript
 
@@ -41,8 +35,7 @@ circle  // wait 1 second, then move circle to another location
 	.attr("cy",150)    // move to this y location
 
 ``` 
-
-4. Change colour
+### Change colour
 
 ``` javascript
 
@@ -50,14 +43,11 @@ circle  // wait 1 second, then move circle to another location
 	.attr("r",50);
 
 ``` 
-
-5. Change size
+### Change size
 ``` javascript
 
 // add this to the circle object
 	.attr("r",50);
 ``` 
-
-
 
 Hat tip: (https://bl.ocks.org/galkamax/c19642317ac807fe13a99bbcf2eaaa75)
