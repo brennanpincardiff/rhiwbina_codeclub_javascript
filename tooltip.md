@@ -32,8 +32,6 @@ var svgbox = d3.select("div").append("svg")
  .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
  .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
-
-    </script>
 ``` 
 
 ### Add the tooltip function
@@ -47,6 +45,7 @@ var svgbox = d3.select("div").append("svg")
 	.text("a simple tooltip");
 
  ``` 
-Check out these two for original code and a more detailed example...
-[http://bl.ocks.org/biovisualize/1016860]
-[http://bl.ocks.org/Caged/6476579]
+Check out these for original code, codepen code and a more detailed example...
++ [http://bl.ocks.org/biovisualize/1016860]
++ [https://codepen.io/brennanpincardiff/pen/eXxJmp]
++ [http://bl.ocks.org/Caged/6476579]
