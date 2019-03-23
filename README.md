@@ -9,6 +9,8 @@ A repo to gather and develop Javascript resources for Rhiwbina Code Club
 + [Lesson two - a simple animation](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/simple_animation.md)
 + [Lesson three - dragging circles](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/dragging_circles.md)
 + [Lesson four - world map](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/world.md)
++ [Lesson five - tool tips](https://github.com/brennanpincardiff/rhiwbina_codeclub_javascript/blob/master/tooltip.md)
+
 
 **Ideas for lessons**
 + Make traffic lights
